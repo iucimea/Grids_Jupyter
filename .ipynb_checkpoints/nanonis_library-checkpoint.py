@@ -30,6 +30,10 @@ from scipy.sparse.linalg import eigs
 from matplotlib.colors import LogNorm
 import os
 import numpy as np
+import ipywidgets as widgets
+from ipywidgets import interact_manual
+import matplotlib.pyplot as plt
+from IPython.display import display, clear_output
 
 
 nanonis_format_dict = {
