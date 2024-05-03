@@ -1,39 +1,18 @@
-from time import time
-import scipy.optimize
-from scipy.signal import argrelextrema
-from scipy.signal import correlate2d
-from time import time 
-import scipy.optimize 
-from scipy.signal import argrelextrema 
-from scipy.signal import correlate2d 
-from scipy.ndimage import gaussian_filter1d 
+import time
+import scipy
 from IPython.display import display 
 from ipywidgets import * 
 from numba import jit 
-import time 
-from numpy import * 
 import numpy as np 
-from sklearn.preprocessing import PolynomialFeatures 
-from sklearn import linear_model 
-from scipy import ndimage, misc
-from scipy.fft import fft, ifft
+import sklearn
 from math import *
 from struct import unpack
 from pylab import *
 from functools import partial
-import scipy.optimize
-from scipy import ndimage
-from scipy.linalg import *
-from scipy.stats import linregress
 import statistics
-from scipy.sparse.linalg import eigs
-from matplotlib.colors import LogNorm
 import os
-import numpy as np
-import ipywidgets as widgets
-from ipywidgets import interact_manual
 import matplotlib.pyplot as plt
-from IPython.display import display, clear_output
+import IPython
 
 
 nanonis_format_dict = {
